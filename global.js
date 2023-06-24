@@ -40,7 +40,7 @@ const getRandonDbConnection = async (connection) => {
 async function main() {
   let connecton = await mongoose
     .createConnection(
-      "mongodb+srv://santhosh:santhosh@cluster0.j5z2f.mongodb.net/?retryWrites=true&w=majority",
+      "",
       {
         minPoolSize: 1,
         maxPoolSize: 10,
